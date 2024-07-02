@@ -1,0 +1,17 @@
+.flex-container{
+  height: 200px;
+  width: 700px;
+  margin: 30px;
+  background-color: #fbffd7;
+
+  display: inline-flex;
+  flex-flow: row nowrap; /* 기본값 명시 */
+
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  align-content: space-between;
+}
+
+
+

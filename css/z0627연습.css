@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+
+body{
+  background-color: rgb(204, 252, 228);
+}
+
+div{background-color: skyblue;}
+.testclass{background-color: greenyellow;}
+#testid{background-color: orange;}
+
+.area1{background-color: red;}
+.area2{background-color: orange;}
+.area3{background-color: yellow;}
+.area4{background-color: green;}
+.area5{background-color: blue;}
+
+.box{
+  width : 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.box2{
+  display: inline-block;
+  width: 33.333%;
+  height:33.333%;
+  padding: 11.1%;
+}
+
+
+.block{display: block;}
+.inline{display: inline;}
+.inline-block{display: inline-block;}
+.padding{padding: 11.1%;}

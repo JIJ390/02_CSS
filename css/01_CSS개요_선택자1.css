@@ -1,0 +1,57 @@
+/* css 파일을 <style> 태그 내부라고 생각 */
+
+/* 아이디가 test1인 요소를 선택 */
+
+#test1{
+  color: hotpink;   /* 글자색 : hotpink */
+  font-weight: bold;  /* 글자 굵기 : 굵게 */
+  font-size: 20px;    /* 글자 크기 : 20px*/
+}
+
+/* id(#) 선택자 */
+
+#li1 {background-color: rgb(216, 57, 216);}
+#li2 {background-color: crimson;}
+#li3 {background-color: royalblue;}
+
+/* 태그 선택자 */ /* 여러줄 쓸경우 엔터 사용 주로 */
+strong{
+  font-size: 18px;
+  font-family: "고딕";
+  color: darkblue;
+}
+
+code{
+  background-color: sandybrown;
+  display: block; /* 영역 관련 block 형식 한줄을 차지 */
+  font-weight: bold;  /* 요소의 표시를 block 형식으로 변경 */
+
+}                 
+
+/* class (.) 선택자 */
+.class-test1{
+  background-color: black;
+  color: white;
+}
+.class-test2{
+  background-color: yellow;
+  color: red;
+}
+/* 한 요소에 여러 클래스 작성하기 */
+.bg-green{background-color: green;}
+.font-pink{color: pink;}
+
+/* 웹 폰트 적용 */
+
+@font-face {
+  font-family: 'Cafe24Moyamoya-Regular-v1.0';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/Cafe24Moyamoya-Regular-v1.0.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* 모든 요소(*) 선택자 */
+*{
+  font-family: 'Cafe24Moyamoya-Regular-v1.0';
+}

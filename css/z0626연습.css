@@ -1,0 +1,59 @@
+#tb1{border: 1px black solid;}
+#tb1 td{border: 1px black solid;}
+
+.paretest1 li {
+  background-color: blue;
+}
+.paretest1 em {
+  background-color: aquamarine;
+}
+
+.divtest1{font-size: 20px;}
+
+.divtest1 > div:first-of-type{
+  background-color: #FFFDB5;
+  color: #5C88C4;
+}
+.divtest1 > div:nth-of-type(2){
+  background-color: #6FDCE3;
+  color: #5C2FC2;
+}
+.divtest1 > div:nth-of-type(3){
+  background-color: #5C88C4;
+  color: #FFFDB5;
+}
+.divtest1 > div:last-of-type{
+  background-color: #5C2FC2;
+  color: #6FDCE3;
+}
+
+.test111{
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+ font-family: 'Cafe24Moyamoya-Regular-v1.0';
+ src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/Cafe24Moyamoya-Regular-v1.0.woff2') format('woff2');
+ font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  font-family: 'Cafe24Moyamoya-Regular-v1.0';
+}
